@@ -17,7 +17,7 @@ springsecurity+jwt
 - 认证的Controller以及测试的controller
 - 测试
 
-![image-20201229100429943](C:\Users\ShanPeng\AppData\Roaming\Typora\typora-user-images\image-20201229100429943.png)
+![image-20201229100429943](https://github.com/wangmyhome/springsecurity-jwt/tree/master/src/main/resources/image/1.png)
 
 ## 1.导入依赖
 
@@ -415,22 +415,22 @@ url：localhost:8102/auth/login
 
 }
 
-![image-20201229101051187](C:\Users\ShanPeng\AppData\Roaming\Typora\typora-user-images\image-20201229101051187.png)
+![image-20201229101051187](https://github.com/wangmyhome/springsecurity-jwt/tree/master/src/main/resources/image/2.png)
 
 
 
 未登录下访问和未授权访问
 
-![image-20201229101125906](C:\Users\ShanPeng\AppData\Roaming\Typora\typora-user-images\image-20201229101125906.png)
+![image-20201229101125906](https://github.com/wangmyhome/springsecurity-jwt/tree/master/src/main/resources/image/3.png)
 
 **登录**
 
 登录后会生成一个token
 
-![image-20201229101244545](C:\Users\ShanPeng\AppData\Roaming\Typora\typora-user-images\image-20201229101244545.png)
+![image-20201229101244545](https://github.com/wangmyhome/springsecurity-jwt/tree/master/src/main/resources/image/4.png)
 
 **访问其他接口**
 
 携带token访问成功。
 
-![image-20201229101349791](C:\Users\ShanPeng\AppData\Roaming\Typora\typora-user-images\image-20201229101349791.png)
+![image-20201229101349791](https://github.com/wangmyhome/springsecurity-jwt/tree/master/src/main/resources/image/5.png)
